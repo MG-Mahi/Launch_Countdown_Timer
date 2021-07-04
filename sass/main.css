@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 45.5%;
+  }
+}
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 38.5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 32.5%;
+  }
+}
+@media screen and (max-width: 390px) {
+  html {
+    font-size: 28.5%;
+  }
+}
+body {
+  font-family: "Red Hat Text", monospace;
+  color: white;
+}
+body h1 {
+  font-size: 8rem;
+  font-weight: 700;
+  color: #fb6087;
+}
+body h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+body p {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+#header {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-image: url("../../images/pattern-hills.svg"), url("../../images/bg-stars.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom, top;
+  background-color: #1e1f29;
+}
+
+.grid {
+  width: 72rem;
+  height: 36.8rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  padding: 1.6rem;
+  gap: 1.6rem 3rem;
+}
+.grid h2 {
+  grid-column: span 4;
+  text-align: center;
+}
+.grid .box {
+  grid-row: 3/6;
+}
+.grid p {
+  align-self: center;
+  grid-row: 6/7;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.social-icons .icons {
+  margin: 0 1rem;
+  font-size: 2.5rem;
+  color: #8486a9;
+}
+
+.box {
+  background-color: #343650;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 8px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+}
+
+@media screen and (max-width: 750px) {
+    html {
+        font-size: 55.5%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    html {
+        font-size: 45.5%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    html {
+        font-size: 38.5%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 32.5%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    html {
+        font-size: 28.5%;
+    }
+}

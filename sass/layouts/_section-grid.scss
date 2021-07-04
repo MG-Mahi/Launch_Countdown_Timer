@@ -1,0 +1,27 @@
+.grid {
+    width: 72rem;
+    height: 36.8rem;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    // place-items: center;
+
+    padding: 1.6rem;
+    gap: 1.6rem 3rem;
+
+    h2 {
+        grid-column: span 4;
+        text-align: center;
+    }
+
+    .box {
+        grid-row: 3/6;
+    }
+
+    p {
+        align-self: center;
+        grid-row: 6/7;
+        text-align: center;
+    }
+}
